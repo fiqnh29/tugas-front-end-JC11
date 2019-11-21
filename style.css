@@ -1,0 +1,268 @@
+body{
+    margin: 0;
+}
+.box{
+    background-image: url('netflix-background.jpg');
+    background-size: 100% 900px;
+    background-repeat: no-repeat;
+    border-bottom: 8px solid #222222;
+}
+.header-wrap{
+    height: 64px;
+    width: 100%;
+    padding: 20px 0 0 0;
+
+}
+.header-cntn{
+    display: block;
+    width: 1237px;
+    height: 64px;
+    margin: 0 56px 0 56px;
+}
+.logo{
+    height: 46px;
+    width: 144px;
+    margin: 8px 0 0 0;
+}
+.btnlog{
+    background-color: #e50914;
+    color: white;
+    float: right;
+    font-size: 16px;
+    font-family: helvetica;
+    padding: 7px 17px 7px 17px;
+    margin: 8px 0 0 0;
+    outline: none;
+    border: none;
+    border-radius: 2px;
+    cursor: pointer;
+}
+
+/* story-box*/
+
+.story-box{
+    text-align: center;
+    height: 643px;
+    width: 1100px;
+    margin: 0 80px 0 80px;
+    position: relative;    
+    display: block;
+    margin-top: 70px;
+}
+.story-box-title{
+    font-size: 50px;
+    font-weight: 700;
+    font-family: helvetica;
+    color: white;
+}
+.widget-title{
+    font-size: 26px;
+    font-family: sans-serif;
+    color: #8c8c8c;
+}
+.row{
+    color: white;
+}
+.green{
+    font-family: Arial, Helvetica, sans-serif;
+    float: left;
+    width: 33.33%;
+    font-size: 26px;
+    font-weight: 600;
+    color: #00d65f;
+    
+}
+.column{
+    font-family: Arial, Helvetica, sans-serif;
+    float: left;
+    width: 33.33%;
+    font-size: 26px;
+    font-weight: 600;
+}
+.widget-box{
+    padding: 50px;
+}
+.widget-bar{
+    background: -webkit-gradient(linear, left top, right top, color-stop(10%, #00d65f), color-stop(50%, #308234), color-stop(50%, #3f3f3f), color-stop(85%, #3f3f3f), to(rgba(63, 63, 63, 0)));
+    border-radius: 20px;
+    height: 39px;
+
+}
+
+.story-footer-txt{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 26px;
+    height: 99px;
+    width: 750px;
+    margin: 16px 175px 16px 175px;
+    color: white;
+}
+.story-btn{
+    height: 60px;
+    width: 454px;
+    font-size: 26px;
+    padding: 0 50px 0 50px;
+    background: none;
+    color: white;
+    border: 1px solid white;
+    margin-bottom: 20px;
+    cursor: pointer;
+}
+.red{
+    background: red;
+    border: none;
+}
+
+/*=========== box2 ============*/
+
+.box2{
+    height: 390px;
+    width: 100%;
+    padding: 45px 45px 45px 45px;
+    background-color: black;
+    color: white;
+    border-bottom: 8px solid #222222;
+}
+.box2-txt-box{
+    height: 325px;
+    width: 600px;
+    margin: 70px 80px 0 80px;
+}
+.box2-title{
+    font-size: 50px;
+    font-weight: 700;
+    font-family: sans-serif;
+    margin: 0 0 8px 0;
+
+}
+.box2-subtitle{
+    font-size: 26px;
+    font-family: sans-serif;
+    width: 547px;
+    margin: 20px 0 7px 0;
+
+}
+.box2-btn{
+    height: 48px;
+    width: 315px;
+    background: none;
+    border: 2px solid white;
+    color: white;
+    font-size: 20px;
+    padding: 6px 20px 6px 20px;
+    margin: 10px 0 10px 0;
+    text-transform: uppercase;
+    cursor: pointer;
+}
+.box2-img{
+    height: 397px;
+    width: 530px;
+    float: right;
+    margin: 0 100px 0 0;
+
+    
+}
+
+/*========== box3==========*/
+
+.box3{
+    height: 390px;
+    width: 100%;
+    padding: 45px 45px 45px 45px;
+    background-color: black;
+    color: white;
+    border-bottom: 8px solid #222222;
+}
+.box3-txt-box{
+    height: 400px;
+    width: 600px;
+    margin: 50px 80px 0 80px;
+    float: right;
+}
+.box3-title{
+    font-size: 50px;
+    font-weight: 700;
+    font-family: sans-serif;
+    margin: 0 0 8px 0;
+
+}
+.box3-subtitle{
+    font-size: 26px;
+    font-family: sans-serif;
+    height: 66px;
+    width: 547px;
+    margin: 20px 0 7px 0;
+
+}
+.box3-btn{
+    height: 48px;
+    width: 315px;
+    background: none;
+    border: 2px solid white;
+    color: white;
+    font-size: 20px;
+    padding: 6px 20px 6px 20px;
+    margin: 10px 0 10px 0;
+    text-transform: uppercase;
+    cursor: pointer;
+}
+.box3-img{
+    height: 397px;
+    width: 530px;
+    float: left;
+    margin: 0 100px 0 0;
+    position: absolute;
+    
+}
+/*====== question box======*/
+
+.question-wrap{
+    height: 738px;
+    width: 1259px;
+    background-color: black;
+    border-bottom: 8px solid #222222; 
+    padding:  70px 45px 70px 45px;  
+}
+.question-box{
+    width: 1259px;
+}
+.question-txt{
+    font-size: 50px;
+    font-weight: 700;
+    font-family: helvetica;
+    color: white;
+    text-align: center;
+
+}
+.question-btn-wrap{
+    padding: 50px;
+}
+.question-btn{
+    height: 74px;
+    width: 815px;
+    padding: 21px 57px 21px 31px;
+    font-size: 26px;
+    font-family: sans-serif;
+    color: white;
+    text-align: left;
+    margin-bottom: 10px;
+    background-color: #303030;
+    border: none;
+    outline: none;
+    cursor: pointer;
+}
+.question-box-btn{
+    background-color: #e50914;
+    color: white;
+    font-size: 26px;
+    font-family: helvetica;
+    padding: 6px 32px 6px 32px;
+    margin: 50px 0 13px 0;
+    outline: none;
+    border: none;
+    border-radius: 2px;
+    text-transform: uppercase;
+    height: 60px;
+    width: 411px;
+    cursor: pointer;
+}
